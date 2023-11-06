@@ -3,12 +3,9 @@
 
 body {
     background: #eae2b7;
-}
-
-body {
-  color: #003049;
-  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+    color: #003049;
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -16,10 +13,31 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
+
+header {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  padding: 10px 0px;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
 
 article {
   padding: 50px 0;
+}
+
+article div p {
+  text-align: left;
+  width: 100%;
 }
 
 article div {
@@ -27,15 +45,29 @@ article div {
   width: 100%;
 }
 
+/* Paragraphs */
 p {
   line-height: 1.5;
 }
 
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
 /* The div container constrains the content width within the main container to 600px */
-div {
+/* div {
   margin: auto;
   width: 600px;
-}
+} */
 
 img {
   width: 100%;
@@ -43,63 +75,24 @@ img {
   height: auto;
 }
 
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%; 
+}
+
 hr {
   border: 1px solid black;
 }
 
-body > header > div > h1{
-  color: black;
-  font-size: 16px;
+.description-font {
+  font-size: 14px;
+}
+/* Footer */
+footer {
   text-align: center;
 }
 
-
-
-body > header > div > nav{
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-body > h1{
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-body > h2{
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-main > div > h2 {
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-article > div > h2 {
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-article > div > h3 {
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-
-
-footer > div > nav > p {
-  color: #668284;
-  font-size: 16px;
-  text-align: center;
-}
-
-/* Add your solution below */
-.image-circle {
-  border: 2px solid #003049;
-  border-radius: 50%; 
+/* Other page elements */
+hr {
+  border: 1px solid black;
 }
